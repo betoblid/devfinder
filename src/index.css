@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dark{
+  background: var(--Very-dark-blue1);
+  color: white;
+}
+.light{
+  background: rgb(241, 242, 248);
+  color: black;
+}
+.card_dark{
+  background: var(--Very-dark-blue);
+  color: white;
+}
+.card_light{
+  background: white;
+  color: black;
+}
+.search_light{
+  color: black;
+}
+.search_dark{
+  color: white;
+}
+.dashboard_dark{
+  background: var(--Very-dark-blue1);
+}
+.dashboard_light{
+  background: var(--Very-dark-blue-desshboard);
+}
+:root{
+  --Very-dark-blue1: hsl(217, 54%, 11%);
+  --Very-dark-blue: hsl(216, 50%, 16%);
+  --Very-dark-blue2: hsl(215, 32%, 27%);
+  --Very-dark-blue-desshboard: hsl(214, 100%, 94%);
+}

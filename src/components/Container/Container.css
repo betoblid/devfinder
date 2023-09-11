@@ -1,0 +1,8 @@
+#container_children{
+    display: flex;
+    align-items: center;
+
+    flex-flow: column wrap;
+    min-height: 90vh;
+    width: 100%;
+}

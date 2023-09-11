@@ -1,0 +1,127 @@
+#container_card{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    width: 720px;
+    padding-block: 30px;
+    box-shadow: 0 0 7px 1px var(--Very-dark-blue2);
+    border-radius: 10px;
+}
+#container_card div img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card_info{
+    width: 500px;
+}
+.nick{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nick p, .nick_mobile p{
+    font: normal 14px "Arial";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.box_nick{
+    padding-block: 22px;
+}
+.box_nick h1, .nick_mobile h1{
+    font: 600 24px "Arial";
+}
+.nickname p, .nick_mobile p:first-of-type{
+    font: normal 16px "Arial";
+    padding-block: 10px;
+    letter-spacing: 2px;
+    color: rgb(78, 78, 252);
+}
+
+/*estilo da bios do usuario*/
+.box_bio p{
+    text-align: center;
+    font: normal 14px "Arial";
+}
+
+/*estilo de um pequeno container com informações sobre o usuario*/
+#card_deshibord_repositorio{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 10px;
+    margin-block: 20px;
+}
+#card_deshibord_repositorio div h3{
+    font: normal 14px "Arial";
+}
+#card_deshibord_repositorio div p{
+    font: bold 18px "Arial";
+    padding-block: 6px;
+}
+
+/*container links do card*/
+.box_links_redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box_links_redes div p{
+    font: normal 14px "Arial";
+    padding-block: 6px;
+}
+.box_links_redes a{
+    text-decoration: none;
+    font: normal 14px "Arial";
+    padding-block: 6px;
+    color: white;
+}
+.nick_mobile{
+    display: none;
+}
+
+
+@media(max-width: 760px){
+    #container_card{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+        width: 95%;
+        padding-block: 30px;
+
+    }
+    #container_card div img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .card_img{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .nick_mobile{
+        display: inline-block;
+    }
+    .card_info{
+        width: 100%;
+    }
+    .box_nick{
+        display: none;
+    }
+
+    #card_deshibord_repositorio div h3{
+        font: normal 12px "Arial";
+    }
+    #card_deshibord_repositorio div p{
+        font: bold 15px "Arial";
+    }
+    .box_nick h1, .nick_mobile h1{
+        font: 600 20px "Arial";
+    }
+
+}

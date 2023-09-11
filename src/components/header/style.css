@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 20px;
+}
+
+#container h1{
+    font: 600 22px "Arial";
+    text-transform: uppercase;
+}
+
+#container button{
+    background: none;
+    border: none;
+    font: 600 18px "Arial";
+
+}
